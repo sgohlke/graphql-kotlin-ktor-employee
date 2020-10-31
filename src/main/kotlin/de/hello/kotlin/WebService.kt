@@ -22,12 +22,12 @@ import io.ktor.routing.post
 import io.ktor.routing.routing
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
-import java.time.LocalDateTime
 import org.slf4j.LoggerFactory
+import java.time.LocalDateTime
 
 val logger = LoggerFactory.getLogger("de.hello")!!
 
-fun main(args: Array<String>) {
+fun main() {
     val server = embeddedServer(Netty, 7002) {
         install(DefaultHeaders)
         install(Compression)
