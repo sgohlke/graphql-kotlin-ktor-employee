@@ -1,4 +1,7 @@
 # graphql-kotlin-ktor-employee
+
+> **Note**: This is a playground project project and may not use up-to-date depenencies!
+
 GraphQL employee example using Ktor
 
 ## How to run
